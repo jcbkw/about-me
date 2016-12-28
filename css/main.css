@@ -1,9 +1,134 @@
-div {
-  border: 1px solid #555;
-  background-color: #dedede;
-  padding: 30px;
+body {
+
+    margin: 0px;
+    height: 0px;
+    background-color: #dfdfdf;
+    font-family: "georgia", "cursive";
+
+}
+
+header {
+
+    color: white;
+    width: 100%;
+    background-color: #353535;
+    /*padding: 15px 30px;*/
+    text-align: right;
+    position: fixed;
+    top:0;
+    left:0;
+
+
+}
+
+header h1 {
+
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    vertical-align: bottom;
+    padding: 0;
+    margin: 5px 0 0 8px;
+
+}
+
+header ul {
+
+    /*display: inline-block;*/
+    padding: 0;
+
+
+
+}
+
+header li {
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    border-right: 1px solid white;
+
+}
+
+header li:last-child {
+
+    border: none;
+
+}
+
+header a {
+
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+
+    color:#8bc348;
+
 }
 
 h1 {
-  color: #8bc348;
+
+    color: #8bc348;
+
+}
+
+h2 {
+
+    color: #353535;
+
+}
+
+main {
+
+    /*text-align: center;*/
+    margin: 50px 25px;
+
+}
+
+main p {
+
+    line-height: 25px;
+
+}
+
+main h1 {
+
+    text-align: center;
+    margin: 80px 0;
+    padding: 20px;
+
+}
+
+main li {
+
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+main img {
+
+    height: 100px;
+    width: 100px;
+    padding-right: 10px;
+    border: 1px solid #grey;
+
+}
+
+table {
+
+    margin-right: 25px;
+
+}
+
+.portrait {
+
+    height: 300px;
+    width: 200px;
+    float: left;
+
 }
